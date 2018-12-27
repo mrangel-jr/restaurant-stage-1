@@ -216,7 +216,7 @@ nav h1 a {
     min-width: 100%;
 }
 
-#restaurants-list li h1 {
+#restaurants-list li h2 {
     color: #f18200;
     font-family: Arial,sans-serif;
     font-size: 14pt;
@@ -265,6 +265,7 @@ nav h1 a {
 }
 
 .inside #map {
+    padding-top: 100px;
     background-color: #ccc;
     height: 100%;
     width: 100%;
@@ -333,7 +334,7 @@ nav h1 a {
     width: 45%;
 }
 
-#reviews-container h2 {
+#reviews-container h3 {
     color: #f58500;
     font-size: 24pt;
     font-weight: 300;
@@ -407,6 +408,10 @@ nav h1 a {
         z-index: 0;
     }
 
+    .inside #map {
+      padding-top: 0px;
+    }
+
     .inside #restaurant-container {
         position: relative;
         width: 100vw;
@@ -445,6 +450,10 @@ nav h1 a {
 }
 
 @media only screen and (max-width: 579px) {
+    .inside #map {
+      padding-top: 0px;
+    }
+
     .filter-options {
         height: 100px;
     }
